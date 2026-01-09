@@ -1,3 +1,45 @@
 body {
+ {background-color: #105FFF}
+
+img {
+	width: 400px;
+}
+img:hover {
+	border:dotted 5px purple;
+	width: 400px;
+	border-radius: 70%;
+}
+h2 {
+	text-decoration: underline wavy purple 5px;
+	color: darkred;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px white;
+	font-size: 50px;
+	
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul li a {
+  display: block;
+  color: #666666;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #dddddd;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
 
 }
